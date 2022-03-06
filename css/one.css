@@ -1,0 +1,13 @@
+h1{
+    background-color: red;
+}
+
+
+.abc{
+    background-color:yellow; font-family: 'Times New Roman', Times, serif; font-size: small;
+}
+
+
+#abc{
+    background-color: purple; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: large;
+}
