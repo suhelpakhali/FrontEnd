@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <h1>Form Validation</h1>
+    </head>
+    <body>
+
+        <form onsubmit="return validate()">
+        
+            <label for="">userName</label>
+            <input type="text" id="userName"/><br />
+            <span id="message" style="color:red"></span><br />
+            <input type="submit" value="login"/>
+
+
+        </form>
+    </body>
+
+    <script>
+
+        function validate(){
+            let name=document.getElementById("userName").value;
+            if(name==""){
+            document.getElementById("message").innerHTML="Please enter the name"
+            }
+            return false;
+        }
+    </script>
+
+
+
+</html>
